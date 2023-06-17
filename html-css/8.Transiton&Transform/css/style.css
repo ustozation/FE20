@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+	background-color: #212121;
+	color: white;
+	font-family: monospace;
+}
+
+.wrapper{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.transform{
+	width: 200px;
+	height: 200px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.translate{
+	background-color: rgb(250, 96, 96);
+	transform: translate(0, 0);
+}
+
+.translate:hover{
+	/* transform: translate(x, y); */
+	/* transform: translate(50px, 50px); */
+	/* transform: translateX(-50px); */
+	/* transform: translateY(50px); */
+	/* transform: translateY(-10px); */
+}
+
+
+.rotate{
+	background-color: rgb(250, 247, 96);
+	transform: translate(0, 0);
+	font-size: 36px;
+	color: black;
+	/* transform-origin: 100px 100px; */
+}
+
+.rotate:hover{
+	/* transform: rotate(0); */
+	transform: rotate(45deg);
+	/* transform: rotateX(90deg); */
+	/* transform: rotateY(440deg); */
+}
+
+
+
+/* .translate:hover ~ .rotate{
+	background-color: blue;
+} */
+
+
+.scale{
+	background-color: rgb(96, 165, 250);
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+
+.scale:hover{
+	/* transform: scale(x, y); */
+	/* transform: scale(1.5, 3); */
+	/* transform:scaleX(1.5); */
+	/* transform: scaleY(1.5); */
+}
+
+
+
+.skew{
+	background-color: rgb(96, 165, 250);
+	font-size: 36px;
+	margin-bottom: 50px;
+	transform: skew(30deg);
+}
+
+.skew:hover{
+	/* transform: skew(x, y); */
+	transform: skew(30deg, 30deg);
+	/* transform:skewX(45deg); */
+	/* transform: skewY(-45deg); */
+}
+
+
+
+button{
+	padding: 20px 50px;
+	background-color: transparent;
+	border-radius: 30px;
+	border: 2px solid rgb(0, 145, 255);
+	color: rgb(0, 145, 255);
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+/* button:hover{
+	background-color: rgb(0, 145, 255);
+	color: white;
+	transform: scale(1.1);
+} */
+
+/* button:active{
+	transform: scale(0.95);
+} */

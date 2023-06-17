@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 50vh;
+	border-radius: 50%;
+	background-image: linear-gradient(red 300px, rgb(37, 0, 172) 300px 999px) ;
+	
+}
+h1{
+	margin: 50px;
+	font-family: sans-serif;
+	color: white;
+	text-shadow: 0 15px  rgba(255, 255, 255, 0.186) ;
+}	
+.box{
+	border-radius: 50%;
+	margin: 50px;
+	width: 50px;
+	height: 50px;
+	/* background: linear-gradient(90deg, rgba(9,9,121,1) 28%, rgba(0,212,255,1) 52%, rgba(2,0,36,1) 70%); */
+}

@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #212121;
+	color: white;
+	/* line-height: 0; */
+}
+
+.wrapper{
+	margin-top: 50px;
+	height: 250px;
+	width: 250px;
+	background-color: rgb(250, 102, 102);
+	font-size: 0;
+	/* overflow-y: scroll; */
+	border-radius: 10px;
+	overflow: hidden;
+}
+

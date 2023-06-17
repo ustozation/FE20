@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #212121;
+	font-family: sans-serif;
+	color:white;
+}
+h1{
+	text-align: center;
+}
+input{
+	color: black;
+}
+form{
+	width: 500px;
+	margin: 0 auto;
+}
+
+input{
+	background-color: red;
+	border: 0;
+	outline:0;
+	padding:15px;
+}
+input::placeholder{
+	color:blue;
+}
+input[type="submit"]{
+	background-color: cyan;
+	border-radius: 25px;
+	cursor: pointer;
+}

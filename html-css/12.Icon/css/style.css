@@ -1,0 +1,51 @@
+/* html{
+	filter: blur(10px);
+} */
+
+body{
+	background-color: #ff9999;
+	color: white;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.wrapper{
+	display: flex;
+	column-gap: 15px;
+	color: #757575;
+}
+
+i{
+	color: red;
+}
+
+.wrapper .link:hover{
+	color: #2196F3;
+}
+
+.wrapper .link:hover svg path{
+	fill: #2196F3;
+}
+
+/* .wrapper .link{
+	filter: grayscale(1);
+	transition: 0.5s;
+	filter: blur(8px); 
+}
+
+.wrapper .link:hover{
+	filter: grayscale(0);
+} */
+
+/* .wrapper .link{
+	filter: grayscale(1);
+	transition: 0.5s;
+	filter: blur(8px); 
+}
+
+.wrapper .link:hover{
+	filter: grayscale(0);
+} */

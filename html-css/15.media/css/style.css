@@ -1,0 +1,30 @@
+body{
+	background-color: #212121;
+	margin: 0;
+}
+
+.wrapper {
+	width: 100%;
+	height: 500px;
+	background-color: yellow;
+}
+
+.box {
+	max-width: 1200px;
+	height: 100px;
+	background-color: red;
+}
+/* Desktop first  */
+/* Mobile first */
+
+/* @media (max-width: 992px), (min-width: 1440px) { 992px - 600px
+	.box{
+		background-color: yellow;
+	}
+}
+
+@media (max-width: 600px) { 600px - 0px
+	.box{
+		background-color: blue;
+	}
+} */
