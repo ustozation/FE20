@@ -1,0 +1,33 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 50px;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	background-color: #212121;
+	font-family: monospace;
+}
+
+
+.wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 14px;
+	width: max-content;
+	user-select: none;
+}
+
+span{
+	font-size: 96px;
+	color: white;
+}
+
+.wrapper .days, .wrapper .hours, .wrapper .minutes, .wrapper .seconds{
+	background-color: white;
+	font-size: 96px;
+	padding: 15px 10px;
+}

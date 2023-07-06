@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+/* button{
+	color: black;
+	background-color: cyan;
+	border: 0;
+	outline: 0;
+	padding: 5px 15px;
+	cursor: pointer;
+	border-radius: 15px;
+}
+button:hover{
+	background-color: rgba(0, 255, 255, 0.3);
+}
+.modal{
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(52, 152, 152);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal.active{
+	display: flex;
+}
+.modal-content{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.remove{
+	align-self: flex-end;
+	font-family: sans-serif;
+	cursor: pointer;
+}*/
+input{
+	color: black;
+} 

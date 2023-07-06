@@ -1,0 +1,31 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	background-color: #212121;
+	font-family: monospace;
+}
+
+
+.wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 14px;
+	width: max-content;
+	user-select: none;
+}
+
+span{
+	font-size: 96px;
+	color: white;
+}
+
+.wrapper .hour, .wrapper .minute, .wrapper .second{
+	background-color: white;
+	font-size: 96px;
+	padding: 15px 10px;
+}
