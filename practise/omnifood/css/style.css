@@ -784,7 +784,7 @@ footer .footer__content nav ul li:hover a{
 	color: var(--primary-color);
 }
 
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
 	.promo .promo__content{
 		flex-direction: column-reverse;
 		align-items: center;
@@ -935,7 +935,7 @@ footer .footer__content nav ul li:hover a{
 	.promo .promo__content .promo__info .promo__users p{
 		font-size: 14px;
 	}
-}
+} */
 
 
 
